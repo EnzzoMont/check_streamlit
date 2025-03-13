@@ -4,12 +4,15 @@ import pandas as pd
 import numpy as np
 from streamlit_extras.app_logo import add_logo 
 from PIL import Image, ImageOps
+from PIL import Image
 
 st.set_page_config(page_title="Dashboard de Distribuições Probabilísticas", layout="wide")
 st.sidebar.markdown("Desenvolvido por um futuro Dev que será referencia na área graças ao Tiago Marum")
 st.sidebar.markdown("(https://www.instagram.com/enzzomont/)")
 
-image = Image.open("enzzofoto1.jpg")
+
+
+# Caminho relativo para a imagemimage = Image.open("enzzofoto1.jpg")
 
 image = image.rotate(-90, expand=True)
 
