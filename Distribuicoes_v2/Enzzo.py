@@ -11,15 +11,6 @@ st.sidebar.markdown("Desenvolvido por um futuro Dev que será referencia na áre
 st.sidebar.markdown("(https://www.instagram.com/enzzomont/)")
 
 
-
-
-# Caminho relativo para a imagem
-image = Image.open("enzzofoto1.jpg")
-
-image = image.rotate(-90, expand=True)
-
-st.image(image, width=250)
-
 st.title("Enzzo Monteiro Barros Silva")
 
 st.subheader("Objetivo")
