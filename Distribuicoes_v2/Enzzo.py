@@ -12,7 +12,9 @@ st.sidebar.markdown("(https://www.instagram.com/enzzomont/)")
 
 
 
-# Caminho relativo para a imagemimage = Image.open("enzzofoto1.jpg")
+
+# Caminho relativo para a imagem
+image = Image.open("enzzofoto1.jpg")
 
 image = image.rotate(-90, expand=True)
 
