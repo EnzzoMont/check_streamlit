@@ -5,18 +5,10 @@ import numpy as np
 from streamlit_extras.app_logo import add_logo 
 from PIL import Image, ImageOps
 
-if "data" not in st.session_state:
-    df = pd.read_excel("Dados_InstagramCliente_AULA_3ESP.xlsx", index_col="Post ID")
-    df = df.sort_values(by="Reach", ascending=False)
-    st.session_state["data"] = df
-
-# Configuração da página
 st.set_page_config(page_title="Dashboard de Distribuições Probabilísticas", layout="wide")
 st.sidebar.markdown("Desenvolvido por um futuro Dev que será referencia na área graças ao Tiago Marum")
 st.sidebar.markdown("(https://www.instagram.com/enzzomont/)")
 st.logo("logo.png")
-
-
 
 image = Image.open("enzzofoto1.jpg")
 
