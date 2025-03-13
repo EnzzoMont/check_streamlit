@@ -8,7 +8,7 @@ from PIL import Image, ImageOps
 st.set_page_config(page_title="Dashboard de Distribuições Probabilísticas", layout="wide")
 st.sidebar.markdown("Desenvolvido por um futuro Dev que será referencia na área graças ao Tiago Marum")
 st.sidebar.markdown("(https://www.instagram.com/enzzomont/)")
-st.image("logo.png")
+st.sidebar.image("logo.png")
 
 image = Image.open("enzzofoto1.jpg")
 
